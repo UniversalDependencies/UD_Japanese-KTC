@@ -34,6 +34,16 @@ training: articles from January 1st to 4th and editorials from January to Februa
 development: articles on January 6th and editorials in April
 test: articles on January 5th and editorials in March
 
+## Citation
+
+You are encouraged to cite the following paper when you refer to the
+Universal Dependencies Japanese Treebank.
+
+Hiroshi Kanayama, Yusuke Miyao, Takaaki Tanaka, Shinsuke Mori,
+Masayuki Asahara, and Sumire Uematsu.  A Draft Proposal for Universal
+Dependencies Japanese Treebank.  In the Proceedings of the 21st annual
+meeting for Gengo Shori Gakkai (The Association for Natural Language
+Processing).  2015.  (In Japanese)
 
 ## Statistics
 
