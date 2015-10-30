@@ -92,17 +92,6 @@ echo "merging texts and trees ..."
 for i in train dev test
 do
     echo "merging for $i ..."
-    $PYTHON $MERGE $DEST_DIR/ktc-$i.org $NOTOKEN_DIR/ja_ktc-ud-$i.conllu.notoken > $CONLL_DIR/ja_ktc-ud-$i.conllu
+    $PYTHON $MERGE $DEST_DIR/ktc-$i.org $NOTOKEN_DIR/ja_ktc-ud-$i.conllu > $CONLL_DIR/ja_ktc-ud-$i.conllu.word
 done
 
-# for i in 01 03 04 05 06
-# do
-#     echo "merging 9501$i ..."
-#     $PYTHON $MERGE $DEST_DIR/9501$i.org $NOTOKEN_DIR/9501$i.conllu.notoken > $CONLL_DIR/9501$i.conllu
-# done
-# for i in 01 02 03 04
-# do
-#     echo "merging 95${i}ED ..."
-#     $PYTHON $MERGE $DEST_DIR/95${i}ED.org $NOTOKEN_DIR/95${i}ED.conllu.notoken > $CONLL_DIR/95${i}ED.conllu
-# done
-# echo "done"
