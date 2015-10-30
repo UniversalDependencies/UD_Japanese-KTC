@@ -1,6 +1,11 @@
 # UD_Japanese-KTC
 
-This is a package of the Japanese Corpora of Universal Dependencies.
+This treebank is produced by automatically converting Kaede treebank,
+which is built over the source material of Kyoto corpus.
+http://nlp.ist.i.kyoto-u.ac.jp/EN/index.php?Kyoto%20University%20Text%20Corpus
+
+
+## Recovering data
 
 The data is provided in the CoNLL format, but original texts are
 stripped off due to the license issue.  In order to recover the data
@@ -19,10 +24,25 @@ Shinbun 1995.  In order to run this command, you need Perl and
 Python.
 
 The program for extracting texts from Mainichi Shinbun 1995 is
-borrowed from the Kyoto Corpus project.  See the following page for
-details.
+borrowed from the Kyoto Corpus project.
 
-http://nlp.ist.i.kyoto-u.ac.jp/EN/index.php?Kyoto%20University%20Text%20Corpus
+## Spliting
+
+Each data set contains UD annotations for the following sections in Kyoto Corpus.
+
+training: articles from January 1st to 4th and editorials from January to February
+development: articles on January 6th and editorials in April
+test: articles on January 5th and editorials in March
+
+
+## Statistics
+
+Tree count:  9995
+Word count:  267631
+Token count: 267631
+Dep. relations: 30 of which 0 language specific
+POS tags: 16
+Category=value feature pairs: 0
 
 
 Documentation status: partial
