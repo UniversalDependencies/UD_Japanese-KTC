@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>9995</sentences><tokens>267631</tokens><words>267631</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="5240" /><!-- 為る, だ, 居る, 有る, 成る, れる, 事, 言う, 無い, 此の, 零, 其の, 様, 因る, 来る -->
+  <forms unique="0" /><!--  -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="16">
+    <tag name="ADJ">4996</tag><!-- _, 無い, 良い, 多い, 強い, 大きい, 何の, 早い, 少ない, 高い -->
+    <tag name="ADP">56602</tag><!-- _, の -->
+    <tag name="ADV">2738</tag><!-- _, 未だ, 更に, 先ず, 既に, 殆ど, 何故, 僅か, 勿論, 嘗て -->
+    <tag name="AUX">29224</tag><!-- _, 為る, だ, 居る, れる, 有る, 無い, 様, 来る, ない -->
+    <tag name="CONJ">2763</tag><!-- _, 然し, 又, 更に, 然も, 唯, 宝, 或いは, 詰まり, 猶 -->
+    <tag name="DET">1067</tag><!-- 此の, 其の, _ -->
+    <tag name="INTJ">27</tag><!-- _, あれ, ううん, あっ, おお, てやんでい, ねえ, はあ, ひょう, まあ -->
+    <tag name="NOUN">83879</tag><!-- _, 事, 為, 物, パーセント-percent, 円-助数詞, 達, 等, 所, ドル-dollar -->
+    <tag name="NUM">10685</tag><!-- _, 零, 一, 二, 三, 五, 四, 九, 六, 八 -->
+    <tag name="PART">2783</tag><!-- _, くらい, な, ばかり, きり, 入る, ね, ほど, タイラ, 一 -->
+    <tag name="PRON">1065</tag><!-- 此れ, 其れ, _, 私-代名詞, 此処, 何れ, 誰, 其処, 何処, 何時 -->
+    <tag name="PROPN">7729</tag><!-- _, トウキョウ, ロシア-Rossiya, ムラヤマ, オオサカ, アジア-Asia, ハンシン, ホンコン, チェチェン-Chechen, コウベ -->
+    <tag name="PUNCT">29066</tag><!-- _ -->
+    <tag name="SCONJ">9342</tag><!-- _, て, の, だ, 為る, けれど, って, たって, 乍ら -->
+    <tag name="SYM">1138</tag><!-- _ -->
+    <tag name="VERB">24527</tag><!-- _, 為る, 言う, 成る, 有る, 因る, つく, 見る, 出来る, 行う -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="30">
+    <dep name="acl">8370</dep>
+    <dep name="advcl">6195</dep>
+    <dep name="advmod">2640</dep>
+    <dep name="amod">1929</dep>
+    <dep name="appos">792</dep>
+    <dep name="aux">21450</dep>
+    <dep name="auxpass">1950</dep>
+    <dep name="case">55787</dep>
+    <dep name="cc">2606</dep>
+    <dep name="ccomp">1243</dep>
+    <dep name="compound">30633</dep>
+    <dep name="conj">4027</dep>
+    <dep name="cop">3450</dep>
+    <dep name="csubj">492</dep>
+    <dep name="csubjpass">6</dep>
+    <dep name="dep">7226</dep>
+    <dep name="det">1042</dep>
+    <dep name="discourse">9</dep>
+    <dep name="dobj">8695</dep>
+    <dep name="iobj">6645</dep>
+    <dep name="mark">9551</dep>
+    <dep name="mwe">2645</dep>
+    <dep name="name">645</dep>
+    <dep name="neg">1811</dep>
+    <dep name="nmod">25344</dep>
+    <dep name="nsubj">10905</dep>
+    <dep name="nsubjpass">939</dep>
+    <dep name="nummod">10405</dep>
+    <dep name="punct">30204</dep>
+    <dep name="root">9995</dep>
+  </deps>
+</treebank>
