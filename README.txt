@@ -54,6 +54,10 @@ Dep. relations: 30 of which 0 language specific
 POS tags: 16
 Category=value feature pairs: 0
 
+## Changelog
+
+No change since UD v1.2.
+
 
 Documentation status: partial
 Data source: automatic
