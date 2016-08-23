@@ -65,3 +65,4 @@ Data available since: UD v1.2
 License: CC BY-SA 4.0
 Genre: news
 Contributors: Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
+Contact:
