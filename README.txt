@@ -1,3 +1,15 @@
+=== Machine-readable metadata =================================================
+Documentation status: partial
+Data source: automatic
+Data available since: UD v1.2
+License: CC BY-SA 4.0
+Genre: news
+Contributors: Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
+Contact: hkana@jp.ibm.com
+===============================================================================
+
+
+
 # UD_Japanese-KTC
 
 This treebank is produced by automatically converting Kaede treebank,
@@ -58,11 +70,3 @@ Category=value feature pairs: 0
 
 No change since UD v1.2.
 
-
-Documentation status: partial
-Data source: automatic
-Data available since: UD v1.2
-License: CC BY-SA 4.0
-Genre: news
-Contributors: Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
-Contact:
