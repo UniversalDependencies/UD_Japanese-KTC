@@ -1,15 +1,3 @@
-=== Machine-readable metadata =================================================
-Documentation status: partial
-Data source: automatic
-Data available since: UD v1.2
-License: CC BY-SA 4.0
-Genre: news
-Contributors: Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
-Contact: hkana@jp.ibm.com
-===============================================================================
-
-
-
 # UD_Japanese-KTC
 
 This treebank is produced by automatically converting Kaede treebank,
@@ -57,16 +45,22 @@ Dependencies Japanese Treebank.  In the Proceedings of the 21st annual
 meeting for Gengo Shori Gakkai (The Association for Natural Language
 Processing).  2015.  (In Japanese)
 
-## Statistics
-
-Tree count:  9995
-Word count:  267631
-Token count: 267631
-Dep. relations: 30 of which 0 language specific
-POS tags: 16
-Category=value feature pairs: 0
-
 ## Changelog
 
-No change since UD v1.2.
+* 2015-11-15 v1.2
+  * First release in UD
 
+=== Machine-readable metadata =================================================
+Data available since: UD v1.2
+License: CC BY-SA 4.0
+Includes text: no
+Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
+Contributors: Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire
+Contributing: elsewhere
+Contact: hkana@jp.ibm.com
+===============================================================================
