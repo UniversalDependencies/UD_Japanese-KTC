@@ -10,7 +10,7 @@
   <lemmas unique="4350" /><!-- 為る, だ, 居る, 有る, 成る, れる, 事, 言う, 無い, 此の, 零, 様, 其の, 因る, 来る -->
   <forms unique="0" /><!--  -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">3509</tag><!-- _, 無い, 良い, 多い, 強い, 大きい, 早い, 何の, 少ない, 高い -->
     <tag name="ADP">40132</tag><!-- _, の -->
@@ -29,7 +29,7 @@
     <tag name="SYM">865</tag><!-- _ -->
     <tag name="VERB">17383</tag><!-- _, 為る, 成る, 言う, 有る, 因る, つく, 見る, 取る, 行う -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
