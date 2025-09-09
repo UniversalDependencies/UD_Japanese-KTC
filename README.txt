@@ -54,6 +54,7 @@ Processing).  2015.  (In Japanese)
 Data available since: UD v1.2
 License: CC BY-SA 4.0
 Includes text: no
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
